@@ -40,8 +40,7 @@
 		compatible = "qcom,kgsl-3d0", "qcom,kgsl-3d";
 		reg = <0x1C00000 0x10000
 		       0x1C20000 0x10000>;
-		reg-names = "kgsl_3d0_reg_memory" , "kgsl_3d0_shader_memory" ,
-    "efuse_memory";
+		reg-names = "kgsl_3d0_reg_memory" , "kgsl_3d0_shader_memory";
 		interrupts = <0 33 0>;
 		interrupt-names = "kgsl_3d0_irq";
 		qcom,id = <0>;
